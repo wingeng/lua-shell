@@ -1,0 +1,2 @@
+after printing() the tty mode isn't correctly restored.
+'?' line completion is broken afterwards
