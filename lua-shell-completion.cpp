@@ -74,7 +74,7 @@ push_lua_table (lua_State *L, const char *table_path,
     str_split(toks, table_path, ".");
 
     lua_pushvalue(L, LUA_GLOBALSINDEX);
-    for (uint i = 0; i < (toks.size() - 1); i++) {
+    for (unsigned i = 0; i < (toks.size() - 1); i++) {
 	lua_getfield(L, -1, toks[i].c_str());
 
 	/*

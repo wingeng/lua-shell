@@ -1,4 +1,5 @@
 .lua_history
+history.txt
 
 # Compiled Object files
 *.slo
@@ -28,3 +29,5 @@
 *.exe
 *.out
 *.app
+
+lshell
